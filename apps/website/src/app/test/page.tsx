@@ -38,7 +38,7 @@ export default function Page() {
 
   const handleApiRequest = async () => {
     try {
-      const response = await fetch("http://localhost:8080/api/payments/style");
+      const response = await fetch("http://52.15.192.69:8080/api/payments/style");
       const data = await response.json();
       setApiResponse(JSON.stringify(data, null, 2));
       if (Array.isArray(data)) {

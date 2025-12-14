@@ -129,7 +129,7 @@ export default function FormBuilder() {
       const jsonString = JSON.stringify(formFields);
       console.log("Sending data:", jsonString);
       
-      const response = await fetch("http://localhost:8080/api/payments/style", {
+      const response = await fetch("http://52.15.192.69:8080/api/payments/style", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
