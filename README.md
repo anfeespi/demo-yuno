@@ -53,9 +53,9 @@ The project is organized following a modular structure that enables better scala
 ```bash
 demo-yuno/                     # Main source code of the project
 ├── apps/                      # Functional applications involved in the overall workflow
-│   ├── backend/demoYuno       # Mocked backend that simulates Yuno services, maintains an in-memory database, and exposes endpoints to execute a payment flow (payment initiation, token validation)
+│   ├── backend/demoYuno       # Mocked backend that simulates Yuno services, maintains an in-memory database, and exposes endpoints to execute a payment flow (payment initiation, token validation), mantain a layered architecture between (Controller -> Service -> Repository* -> Entity)
 │   ├── website-docs/          # Documentation related to the SDK and the website, providing extended information about each component
-│   └── website/               # Web application that centralizes the checkout creation process using a drag-and-drop approach, leveraging AI for prompting and web scraping
+│   └── website/               # Web application that centralizes the checkout creation process using a drag-and-drop approach, leveraging AI for prompting and web scraping, the architecture of this project it's oriented to components
 ├── packages/                  # Package that centralizes the layers of the developed SDK
 │   ├── yuno-demo-sdk-ui/      # Presentation layer that consumes a client-specific configuration JSON (associated with its API key) to preload the appearance of the checkout created on the website
 │   └── yuno-demo-sdk/         # Business logic / service layer that connects to the API (backend/demoYuno) through predefined methods
