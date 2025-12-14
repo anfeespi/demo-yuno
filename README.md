@@ -53,7 +53,7 @@ The project is organized following a modular structure that enables better scala
 ```bash
 demo-yuno/                     # Main source code of the project
 ├── apps/                      # Functional applications involved in the overall workflow
-│   ├── backend/demoYuno       # Mocked backend that simulates Yuno services, maintains an in-memory database, and exposes endpoints to execute a payment flow (payment initiation, token validation), mantain a layered architecture between (Controller -> Service -> Repository* -> Entity)
+│   ├── backend/demoYuno       # Mocked backend that simulates Yuno services, maintains an in-memory database, and exposes endpoints to execute a payment flow (payment initiation, token validation), mantain a layered architecture between (Controller -> Service -> Repository* -> Entity), made in Java Spring Boot
 │   ├── website-docs/          # Documentation related to the SDK and the website, providing extended information about each component
 │   └── website/               # Web application that centralizes the checkout creation process using a drag-and-drop approach, leveraging AI for prompting and web scraping, the architecture of this project it's oriented to components
 ├── packages/                  # Package that centralizes the layers of the developed SDK
@@ -88,3 +88,8 @@ demo-yuno/                     # Main source code of the project
 - This project is currently a PoC or early prototype that showcases the main vision and immediate goals, with opportunities for growth and improvement based on the current solution.
 
 - Future improvements include enhanced security, new features related to the Checkout Builder, and additional AI-driven implementations at different stages of the lifecycle.
+
+## URL's
+- Website (landing page, Checkout Builder, AI Builder, Web Scrapper) : https://yuno.uprizing.me/
+- Website Docs : https://docs.yuno.uprizing.me/docs
+- Demo Project : https://prototypeyuno.netlify.app/ 
