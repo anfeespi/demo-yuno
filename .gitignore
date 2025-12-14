@@ -42,3 +42,4 @@ next-env.d.ts
 
 # Turbo
 .turbo
+/packages/yuno-demo-sdk/src

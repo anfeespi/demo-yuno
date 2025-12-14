@@ -1,0 +1,13 @@
+{
+  "name": "yuno-demo-sdk",
+  "version": "0.1.0",
+  "description": "Yuno core Sdk",
+  "main": "src/index.ts",
+  "type": "module",
+  "files": [
+    "src/index.ts"
+  ],
+  "publishConfig": {
+    "access": "public"
+  }
+}

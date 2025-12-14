@@ -52,6 +52,7 @@
         "cmdk": "^1.1.1",
         "date-fns": "^4.1.0",
         "embla-carousel-react": "^8.6.0",
+        "framer-motion": "^12.23.26",
         "input-otp": "^1.4.2",
         "js-beautify": "^1.15.4",
         "lucide-react": "^0.561.0",
@@ -87,6 +88,10 @@
         "tw-animate-css": "^1.4.0",
         "typescript": "^5",
       },
+    },
+    "packages/yuno-demo-sdk": {
+      "name": "yuno-demo-sdk",
+      "version": "0.1.0",
     },
   },
   "packages": {
@@ -1311,6 +1316,8 @@
     "yargs-parser": ["yargs-parser@21.1.1", "", {}, "sha512-tVpsJW7DdjecAiFpbIB1e3qxIQsE6NoPc5/eTdrbbIC4h0LVsWhnoa3g+m2HclBIujHzsxZ4VJVA+GUuc2/LBw=="],
 
     "yocto-queue": ["yocto-queue@0.1.0", "", {}, "sha512-rVksvsnNCdJ/ohGc6xgPwyN8eheCxsiLM8mxuE/t/mOVqJewPuO1miLpTHQiRgTKCLexL4MeAFVagts7HmNZ2Q=="],
+
+    "yuno-demo-sdk": ["yuno-demo-sdk@workspace:packages/yuno-demo-sdk"],
 
     "zod": ["zod@4.1.13", "", {}, "sha512-AvvthqfqrAhNH9dnfmrfKzX5upOdjUVJYFqNSlkmGf64gRaTzlPwz99IHYnVs28qYAybvAlBV+H7pn0saFY4Ig=="],
 
